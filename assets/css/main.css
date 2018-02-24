@@ -2335,11 +2335,11 @@
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right, .image.center {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img, .image.center img {
 				width: 100%;
 			}
 
@@ -2351,6 +2351,12 @@
 
 		.image.right {
 			float: right;
+			padding: 0 0 1em 1.5em;
+			top: 0.25em;
+		}
+		
+		.image.center {
+			float: center;
 			padding: 0 0 1em 1.5em;
 			top: 0.25em;
 		}
